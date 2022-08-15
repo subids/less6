@@ -47,12 +47,8 @@ class Student:
 
 class Mentor:
     def __init__(self, name, surname):
-        """Перегрузка метода _init_ для определения атрибутов класса Mentor
-        Содержит атрибуты:
-        self.name = name
-        self.surname = surname
-        self.courses_attached = []
-        """
+        """Перегрузка метода _init_ для определения атрибутов класса Mentor"""
+
 
         self.name = name
         self.surname = surname
